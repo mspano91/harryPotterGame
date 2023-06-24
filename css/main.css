@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=VT323&display=swap');
+
+
+body {
+    font-family: "VT323", monospace;
+    background-color: black;  }
+
+
+  .titulo h1{
+    padding: 5px;
+  }
+  .titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: center; 
+    border: 5px solid rgb(255, 255, 255);
+    background-color:rgb(53, 11, 57) ;
+  }  
+
+  
+  main {
+    padding-top: 1rem; 
+    color: white;
+    width: 100%; 
+    gap: 10px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-around; 
+    z-index: 1;
+
+     }
+
+  ul.item,
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: center; 
+    width: 400px; 
+  }
+
+  
+  li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 5px solid black;
+    font-size: 1.5rem;
+    width: cover;
+  }
+  li:hover {
+    border: 5px solid white;
+  }
+
+
+
+  #mochila {
+    min-height: 140px;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+  }
+
+  .ventana {
+    border: 5px solid rgb(53, 11, 57);
+    background-color: black;
+    opacity: 0.9;
+    height: 280px;
+    
+  }
+
+
+  #orOlivander,
+  #oro {
+    color: gold;
+    font-size: 2rem;
+    width: cover;
+  }
+
+  #oroimg{
+    width: 50px;
+    position: flex;
+    /* display: flex; */
+
+  }
+
+  .dinero{
+    width: 370px;
+    z-index: 100;
+  }
+
+
+#orocajon{
+    padding-left: 1rem;
+    display: flex;
+    grid-template-columns: 1fr 56fr;
+    align-items: center;
+    gap: 1rem;
+    height: 75px;
+} 
+
+#orocajonOli{
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  display: flex;
+  grid-template-columns: 1fr 56fr;
+  align-items: center;
+  gap: 1rem;
+  height: 75px;
+} 
+
+  .harry{
+    width: 220px;
+    height: 215px;
+    
+  }
+
+  .garrik{
+    width: 220px;
+    height: 215px;
+    
+  }
+
+  #vendedor{
+    margin-left: 7rem;
+    
+  }
+
+  .cuadrado{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .cuadrado2{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: center;
+    border: 5px solid rgb(53, 11, 57);
+    
+  }
+
+  .cuadrado3{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(53, 11, 57);
+  }
+
+  .cuadrado4{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display: inline;
+  }
+
+  .cuadrado4 .harry{
+    padding-left: 5.5rem;
+
+  }
+
+  .cuadradoMadre2{
+    display: inline-flex;
+  }
+ 
+
+  

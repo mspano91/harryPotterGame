@@ -1,0 +1,77 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:rgb(35, 31, 38);
+}
+
+header{
+    background-color: rgb(191, 158, 75);
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+main{
+     display: flex;
+    justify-content: center; 
+    padding-top: 3rem;
+    gap: 2rem;
+}
+
+.caja1{
+    background-color: beige;
+    display: grid;
+    place-items: center; 
+    width: 400px;
+    height: 400px;
+}
+
+
+.caja2{
+    background-color: rgb(93, 93, 31);
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center; 
+}
+
+ul{
+    list-style: none;
+    font-size: 2rem;
+    padding: 0;
+    width: 400px;
+    display: grid;
+    align-items: center;
+    position: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.texto1,
+.texto{
+    font-size:1.5rem ;
+    margin: 0;
+}
+
+li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 5px solid black;
+    font-size: 1.5rem;
+    width: 300px;
+  }
+  li:hover {
+    border: 5px solid white;
+  }
+
